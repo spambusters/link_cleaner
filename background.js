@@ -171,6 +171,17 @@ const urls_to_param_mappers = [
   },
   {
     urls: ["*://steamcommunity.com/linkfilter/*"]
+  },
+  {
+    urls: ["*://l.instagram.com/*"],
+    param_name: 'u'
+  },
+  {
+    urls: ["*://t.umblr.com/*"],
+    param_name: 'z'
+  },
+  {
+    urls: ["*://sys.4chan.org/*"]
   }
 ];
 
